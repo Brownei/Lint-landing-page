@@ -1,10 +1,20 @@
+import About from "./components/About"
+import Contact from "./components/Contact"
+import Features from "./components/Features"
+import GettingStarted from "./components/GettingStarted"
+import Hero from "./components/Hero"
+import Nav from "./components/Nav"
 
 function App() {
-
   return (
-    <>
-      <h1 className='text-pretty'>Hello</h1>
-    </>
+    <main>
+      <Nav />
+      <Hero />
+      <About />
+      <Features />
+      <GettingStarted />
+      <Contact />
+    </main>
   )
 }
 

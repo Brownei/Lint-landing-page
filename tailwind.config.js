@@ -21,7 +21,8 @@ export default {
         'darkPurplishBlue': '#B0B2E7',
         'lighterPurple': '#D2B0E7',
         'orange': '#FFA500',
-        'veryDarkBlue': '00034A',
+        'veryDarkBlue': '#00034A',
+        'darkPurple': '#6D00B0',
       }
     },
   },
