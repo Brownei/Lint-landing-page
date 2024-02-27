@@ -1,7 +1,7 @@
-import FirstAboutPicture from '../assets/Lint-screen-2.png'
-import MobileView from '../assets/mbile-6.png'
-import MobileViewTwo from '../assets/mbile-4.png'
-import MobileViewThree from '../assets/mobile-13.png'
+import FirstAboutPicture from '../assets/clear-images/dae.jpg'
+import MobileView from '../assets/clear-images/2.jpg'
+import MobileViewTwo from '../assets/clear-images/1.jpg'
+import MobileViewThree from '../assets/clear-images/5 (1).jpg'
 
 const About = () => {
   return (
@@ -20,12 +20,12 @@ const About = () => {
                 </div>
 
                 <div className="flex flex-col justify-center items-center gap-1 md:gap-10 md:flex-row-reverse">
-                    <div className='flex justify-center items-center pt-[48px] bg-purplishBlue w-[360px] md:w-[500px] lg:w-[612px]'>
-                        <img className='w-[231.47px] md:w-[393.5px]' src={MobileView} alt="" />
+                    <div className='flex justify-center items-center bg-purplishBlue w-[361.69px] h-[295px] overflow-hidden md:w-[500px] md:h-[412px] lg:w-[612px] lg:h-[500px]'>
+                        <img className='w-[231.47px] rounded-[16px] mt-[290px] md:mt-[500px] md:w-[393.5px]' src={MobileView} alt="" />
                     </div>
                     <div>
                         <h4 className=' font-bold text-[1.3rem] md:text-[1.8rem] lg:text-[2rem]'><span className='text-lightDarkishBlue'>Express</span> your interest</h4>
-                        <p className='text-[0.9rem] sm:w-[360.55px]  md:w-[502.36px] md:leading-[22px] md:text-[1rem]'>See an Idea you like? Post your interest. Share what you feel about the idea, ways it can be improved, suggested features or honest compliments.</p>
+                        <p className='text-[0.9rem] sm:w-[360.55px] md:w-[502.36px] md:leading-[22px] md:text-[1rem]'>See an Idea you like? Post your interest. Share what you feel about the idea, ways it can be improved, suggested features or honest compliments.</p>
                     </div>
                 </div>
             </div>
@@ -37,11 +37,11 @@ const About = () => {
                 </div>
                 <div className='grid justify-center items-center gap-10'>
                     <div className='flex flex-col justify-center items-center gap-2 md:flex-row'>
-                        <div className='flex justify-center items-center pt-[47.64px] bg-purplishBlue w-[360px] overflow-y-hidden md:h-full md:pt-[80px] md:w-[500px] lg:w-[612px]'>
-                            <img className='w-[231.47px] md:w-[393.5px]' src={MobileViewTwo} alt="" />
+                        <div className='flex justify-center items-center pt-[47.64px] bg-purplishBlue w-[360px] h-[360px] overflow-y-hidden md:h-[612px] md:pt-[80px] md:w-[500px] lg:w-[612px] lg:h-[700px]'>
+                            <img className='w-[231.47px] rounded-[16px] mt-[290px] md:mt-[200px] md:w-[393.5px]' src={MobileViewTwo} alt="" />
                         </div>
-                        <div className='flex justify-center items-center pt-[47.64px] bg-purplishBlue w-[360px] overflow-y-hidden md:h-full md:pt-[80px] md:w-[500px] lg:w-[612px]'>
-                            <img className='w-[231.47px] md:w-[393.5px]' src={MobileViewThree} alt="" />
+                        <div className='flex justify-center items-center pt-[47.64px] bg-purplishBlue w-[360px] h-[360px] overflow-y-hidden md:h-[612px] md:pt-[80px] md:w-[500px] lg:w-[612px] lg:h-[700px]'>
+                            <img className='w-[231.47px] rounded-[16px] mt-[290px] md:mt-[290px] md:w-[393.5px]' src={MobileViewThree} alt="" />
                         </div>
                     </div>
                 </div>

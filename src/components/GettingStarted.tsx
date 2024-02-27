@@ -1,6 +1,6 @@
 import OnboardingPagePicture from '../assets/Onboarding-page--31.png'
 import OnboardingPagePictureTwo from '../assets/Onboarding-page-1.png'
-import OnboardingPagePictureThree from '../assets/collaboration.png'
+import OnboardingPagePictureThree from '../assets/clear-images/rtt.jpg'
 
 const GettingStarted = () => {
   return (

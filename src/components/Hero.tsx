@@ -1,4 +1,4 @@
-import HeroImage from '../assets/collaboration-hero.png'
+import HeroImage from '../assets/clear-images/rtt.jpg'
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
               <p className="text-[0.9rem] font-normal leading-[22px] w-[359.14px] md:w-[576px] md:text-[1rem]">Collaborative ecosystem, empowering users to share their creative ideas, find like-minded individuals, and collaborate on diverse technology projects</p>
               <button className="py-[8px] px-[16px] rounded-[32px] bg-lightDarkishBlue text-sm text-white md:mt-[20px] md:text-base">Create an account</button>
           </div>
-          <img src={HeroImage} alt="Hero image" />
+          <img className='md:w-[1214.74px] border-8 rounded-lg border-purplishBlue' src={HeroImage} alt="Hero image" />
         </div>
     </header>
   )

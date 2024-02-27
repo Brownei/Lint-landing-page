@@ -6,7 +6,7 @@ const Contact = () => {
     <footer id='contact'>
       <div className='bg-veryDarkBlue flex justify-between items-center py-[20px] px-[50px] mt-[100px]'>
         <img src={FooterImage} alt="" />
-        <p className='text-white flex justify-center items-center gap-1'>Made with love <span><Icon icon={'fluent-emoji-flat:heart-suit'}/></span>by 4Dsolutions</p>
+        <p className='text-white hidden justify-center items-center gap-1 text-[0.7rem] md:text-[0.9rem] md:flex'>Made with love <span><Icon icon={'fluent-emoji-flat:heart-suit'}/></span>by 4Dsolutions</p>
         <ul className='flex justify-center items-center gap-3'>
           <li>
             <Icon icon={'ph:globe'} color='#ffff' fontSize={20}/>
