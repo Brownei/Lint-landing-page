@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Logo from '../assets/Logo.png'
+import Logo from '../assets/Layer 1.svg'
 import {Icon} from '@iconify/react'
 
 const Nav = () => {
