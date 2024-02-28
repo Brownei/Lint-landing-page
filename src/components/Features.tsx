@@ -49,7 +49,7 @@ const Features = () => {
         <div className='block overflow-hidden md:hidden' ref={emblaRef}>
           <div className="flex gap-[32px] items-center my-[30px]">
             {images.map((image, index) => (
-              <FeaturesMobileCard url={image} key={index}/>
+              <FeaturesMobileCard url={image} index={index}/>
             ))}
           </div>
         </div>

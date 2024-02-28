@@ -13,16 +13,14 @@ const Nav = () => {
             <div className='hidden items-center gap-[20px] md:flex'>
               <button type='button' onClick={() => {
                 const element = document.getElementById('hero')
-                element?.scrollIntoView({
+                element?.scrollTo({
                   behavior: 'smooth',
-                  inline: "nearest"
                 });
               }}>Home</button>
               <button type='button' onClick={() => {
                 const element = document.getElementById('about')
-                element?.scrollIntoView({
+                element?.scrollTo({
                   behavior: 'smooth',
-                  inline: "nearest"
                 });
               }}>About</button>
               <button type='button' onClick={() => {
