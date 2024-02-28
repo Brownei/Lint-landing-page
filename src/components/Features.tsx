@@ -3,8 +3,20 @@ import MobileViewThreee from '../assets/clear-images/4.jpg'
 import Mobile from '../assets/clear-images/iPhone 14 & 15 Pro - 51.jpg'
 import useEmblaCarousel from "embla-carousel-react"
 import { useEffect } from 'react'
+import FeaturesMobileCard from './FeaturesMobileCard'
 
 const Features = () => {
+  const images = [
+    MobileViewOne,
+    MobileViewThreee,
+    Mobile,
+    // Mobile,
+    // Mobile,
+    // Mobile,
+    // Mobile,
+    // Mobile,
+    
+  ]
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false });
 
     useEffect(() => {
@@ -36,15 +48,9 @@ const Features = () => {
 
         <div className='block overflow-hidden md:hidden' ref={emblaRef}>
           <div className="flex gap-[32px] items-center my-[30px]">
-            <div className='grid place-items-center rounded-t-[16px] bg-purplishBlue w-full overflow-hidden'>
-              <img className='mt-[50px] rounded-[16px] w-[238.87px]' src={MobileViewOne} alt="" />
-            </div>
-            <div className='grid place-items-center rounded-t-[16px] bg-purplishBlue w-full overflow-hidden'>
-              <img className='mt-[50px] rounded-[16px] w-[238.87px]' src={MobileViewThreee} alt="" />
-            </div>
-            <div className='grid place-items-center rounded-t-[16px] bg-purplishBlue overflow-hidden w-full'>
-              <img className='mt-[50px] rounded-t-[16px] w-[238.87px]' src={Mobile} alt="" />
-            </div>
+            {images.map((image, index) => (
+              <FeaturesMobileCard url={image} key={index}/>
+            ))}
           </div>
         </div>
       </div>
