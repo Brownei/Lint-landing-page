@@ -1,5 +1,5 @@
-import OnboardingPagePicture from '../assets/Onboarding-page--31.png'
-import OnboardingPagePictureTwo from '../assets/Onboarding-page-1.png'
+import OnboardingPagePicture from '../assets/clear-images/Onboarding-page--3.jpg'
+import OnboardingPagePictureTwo from '../assets/clear-images/Onboarding-page-1.jpg'
 import OnboardingPagePictureThree from '../assets/clear-images/rtt.jpg'
 
 const GettingStarted = () => {

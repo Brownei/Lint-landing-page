@@ -10,18 +10,12 @@ const Features = () => {
     MobileViewOne,
     MobileViewThreee,
     Mobile,
-    // Mobile,
-    // Mobile,
-    // Mobile,
-    // Mobile,
-    // Mobile,
-    
   ]
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false });
 
     useEffect(() => {
         if (emblaApi) {
-            console.log(emblaApi.slideNodes()) // Access API
+            // console.log(emblaApi.slideNodes()) // Access API
             return;
         }
     }, [emblaApi])
@@ -34,13 +28,13 @@ const Features = () => {
         </div>
         <div className='hidden md:block'>
           <div className='grid grid-cols-2 grid-rows-2 gap-5 lg:w-[1240px] lg:px-[105px]'>
-            <div className='col-span-1 flex justify-center items-center pt-[40px] bg-purplishBlue h-[300px] overflow-hidden'>
+            <div className='col-span-1 flex justify-center items-center pt-[40px] bg-purplishBlue rounded-[8px] h-[300px] overflow-hidden'>
               <img className='mt-[600px] rounded-[16px] md:w-[393.5px]' src={MobileViewOne} alt="" />
             </div>
-            <div className='row-span-2 flex justify-center items-center bg-purplishBlue overflow-hidden h-[620px]'>
+            <div className='row-span-2 flex justify-center items-center bg-purple rounded-[8px] overflow-hidden h-[620px]'>
               <img className='mt-[270px] rounded-t-[16px] md:w-[366.69px]' src={Mobile} alt="" />
             </div>
-            <div className='col-span-1 flex justify-center items-center pt-[40px] bg-purplishBlue h-[300px] overflow-hidden'>
+            <div className='col-span-1 flex justify-center items-center pt-[40px] bg-yellow rounded-[8px] h-[300px] overflow-hidden'>
               <img className='mt-[600px] rounded-[16px] md:w-[393.5px]' src={MobileViewThreee} alt="" />
             </div>
           </div>

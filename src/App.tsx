@@ -1,4 +1,5 @@
 import About from "./components/About"
+import Banner from "./components/Banner"
 import Contact from "./components/Contact"
 import Features from "./components/Features"
 import GettingStarted from "./components/GettingStarted"
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Features />
       <GettingStarted />
+      <Banner />
       <Contact />
 
       {showModal && <WaitingListModal />}
