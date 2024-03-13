@@ -23,6 +23,7 @@ export default {
         'orange': '#FFA500',
         'veryDarkBlue': '#00034A',
         'darkPurple': '#6D00B0',
+        'grey': '#8F9191',
       }
     },
   },

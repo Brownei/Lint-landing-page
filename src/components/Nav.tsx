@@ -44,7 +44,6 @@ const Nav = () => {
                   inline: "nearest"
                 });
               }}>Contact</button>
-              <button className='py-[8px] px-[16px] bg-purplishBlue rounded-[32px]'>Login</button>
             </div>
 
             <button className='block z-50 md:hidden' onClick={() => setIsToggle(prev => !prev)} onBlur={() => setIsToggle(false)}>
@@ -56,7 +55,7 @@ const Nav = () => {
                 <button onClick={() => setIsToggle(prev => !prev)} className='fixed right-5 top-6'>
                   <Icon icon={'iconoir:cancel'} fontSize={34} color='#0006B1'/>
                 </button>
-                <div className='flex flex-col justify-center items-center gap-10 mt-10'>
+                {/* <div className='flex flex-col justify-center items-center gap-10 mt-10'>
                   <button type='button' onClick={() => {
                     const element = document.getElementById('hero')
                     element?.scrollIntoView({
@@ -102,8 +101,7 @@ const Nav = () => {
                   }}>
                     Contact
                   </button>
-                  <button className='py-[8px] px-[16px] bg-purplishBlue rounded-[32px]'>Login</button>
-                </div>
+                </div> */}
               </div>
             )}
           </div>
