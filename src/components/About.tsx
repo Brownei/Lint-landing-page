@@ -37,10 +37,10 @@ const About = () => {
                 </div>
                 <div className='grid justify-center items-center gap-10'>
                     <div className='flex flex-col justify-center items-center gap-2 md:flex-row'>
-                        <div className='flex justify-center items-center pt-[47.64px] bg-purplishBlue w-[360px] h-[360px] overflow-y-hidden md:h-[612px] md:pt-[80px] md:w-[500px] lg:w-[612px] lg:h-[700px]'>
+                        <div className='flex justify-center items-center pt-[47.64px] bg-purplishBlue w-[360px] h-[360px] overflow-y-hidden rounded-t-[8px] md:h-[612px] md:pt-[80px] md:w-[500px] lg:w-[612px] lg:h-[700px]'>
                             <img className='w-[231.47px] rounded-[16px] mt-[290px] md:mt-[200px] md:w-[393.5px]' src={MobileViewTwo} alt="" />
                         </div>
-                        <div className='flex justify-center items-center pt-[47.64px] bg-purplishBlue w-[360px] h-[360px] overflow-y-hidden md:h-[612px] md:pt-[80px] md:w-[500px] lg:w-[612px] lg:h-[700px]'>
+                        <div className='flex justify-center items-center pt-[47.64px] bg-purplishBlue w-[360px] h-[360px] overflow-y-hidden rounded-t-[8px] md:h-[612px] md:pt-[80px] md:w-[500px] lg:w-[612px] lg:h-[700px]'>
                             <img className='w-[231.47px] rounded-[16px] mt-[290px] md:mt-[290px] md:w-[393.5px]' src={MobileViewThree} alt="" />
                         </div>
                     </div>

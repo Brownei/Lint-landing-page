@@ -1,4 +1,4 @@
-import exceljs from 'exceljs'
+import * as XLSX from 'xlsx'
 
 export class EarlyWaiter {
     name: string;
@@ -12,17 +12,19 @@ export class EarlyWaiter {
     }
 
     public async addToWaitingList() {
-        const workbook = new exceljs.Workbook()
+        const data: Record<string, string>[] = []
+        data.push({
+            name: this.name,
+            email: this.email,
+            country: this.country
+        })
         try {
-            console.log('1')
-            const workSheet = await workbook.xlsx.readFile('../../waiting-list.xlsx')
-            console.log('2')
-            const workExcelSheet = workSheet.getWorksheet()
-            console.log('3')
-            workExcelSheet?.addRow([this.name, this.email, this.country])
-            console.log('4')
-            await workbook.xlsx.writeFile('../waiting-list.xlsx')
-            console.log('5')
+            const headers = ['Name', 'Email', 'Country'];
+            const sheetData = [headers, ...data];
+            const worksheet = XLSX.utils.json_to_sheet(sheetData);
+            const workbook = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(workbook, worksheet, 'Sheet1');
+            XLSX.writeFile(workbook, '../../waiting-list.xlsx');
         } catch (error) {
             console.log(error) 
         }
