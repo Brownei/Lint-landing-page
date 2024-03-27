@@ -124,7 +124,7 @@ const WaitingListModal = () => {
     <div className="relative container mx-auto p-4">
         {notAddedToList ? (
             <ModalContainer>
-                <Icon className="absolute top-10 right-10 cursor-pointer" onClick={() => updateShowModal(false)} icon={'fa:close'} color="#8F9191" fontSize={23} />
+                <Icon className="absolute top-5 right-5 cursor-pointer md:top-10 md:right-10" onClick={() => updateShowModal(false)} icon={'fa:close'} color="#8F9191" fontSize={23} />
                 <ModalHeader>
                     <h2 className="text-center font-bold text-[2rem] md:text-[2.5rem] lg:text-[3rem]">Join Our <span className="text-lightDarkishBlue">Waitlist</span></h2>
                     <p className="text-center leading-[22px] text-[0.9rem] md:w-[464.26px]">Join our waitlist to get first-hand from us when we launch our MVP in one month’s time</p>

@@ -15,9 +15,6 @@ const Contact = () => {
             <Icon icon={'mdi:twitter'} color='#ffff' fontSize={20}/>
           </li>
           <li>
-            <Icon icon={'mdi:github'} color='#ffff' fontSize={20}/>
-          </li>
-          <li>
             <Icon icon={'mdi:linkedin'} color='#ffff' fontSize={20}/>
           </li>
           <li>
