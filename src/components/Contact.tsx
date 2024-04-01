@@ -7,20 +7,9 @@ const Contact = () => {
       <div className='bg-veryDarkBlue flex justify-between items-center py-[20px] px-[50px] mt-[100px]'>
         <img src={FooterImage} alt="" />
         <p className='text-white hidden justify-center items-center gap-1 text-[0.7rem] md:text-[0.9rem] md:flex'>Made with love <span><Icon icon={'fluent-emoji-flat:heart-suit'}/></span>by 4Dsolutions</p>
-        <ul className='flex justify-center items-center gap-3'>
-          <li>
-            <Icon icon={'ph:globe'} color='#ffff' fontSize={20}/>
-          </li>
-          <li>
-            <Icon icon={'mdi:twitter'} color='#ffff' fontSize={20}/>
-          </li>
-          <li>
-            <Icon icon={'mdi:linkedin'} color='#ffff' fontSize={20}/>
-          </li>
-          <li>
-            <Icon icon={'ic:baseline-facebook'} color='#ffff' fontSize={20}/>
-          </li>
-        </ul>
+        <a target='_blank' href="https://twitter.com/Lint_app_">
+          <Icon icon={'mdi:twitter'} color='#ffff' fontSize={20}/>
+        </a>
       </div>
     </footer>
   )
